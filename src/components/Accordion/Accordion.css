@@ -1,0 +1,10 @@
+.collapse-title {
+    transition: transform 0.3s ease; 
+  }
+  
+  .join-item:hover .collapse-title {
+    transform: translateX(10px); 
+  }
+
+  
+ 

@@ -1,0 +1,32 @@
+.image-container {
+    position: relative;
+    overflow: hidden;
+  }
+  .image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    animation: alternateSize 5s infinite;
+    -webkit-animation: alternateSize 5s infinite;
+  }
+  @keyframes alternateSize {
+    0%,
+    100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(0.9);
+      -webkit-transform: scale(0.9);
+      -moz-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+      -o-transform: scale(0.9);
+    }
+  }
+  
+  .bannerImage{
+    clip-path: inset(2% 2% 2% 0 round 2% 2% 0 2%);
+      
+    }
